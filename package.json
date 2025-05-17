@@ -10,7 +10,9 @@
     "preview": "vite preview",
     "prepare": "husky",
     "lint": "eslint 'src/**/*.{ts,tsx,js,jsx}'",
-    "format": "prettier --write 'src/**/*.{ts,tsx,js,jsx,json,css,scss,md}'"
+    "format": "prettier --write 'src/**/*.{ts,tsx,js,jsx,json,css,scss,md}'",
+    "test": "vitest",
+    "test:coverage": "vitest run --coverage"
   },
   "repository": {
     "type": "git",
