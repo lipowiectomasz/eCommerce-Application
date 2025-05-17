@@ -1,2 +1,6 @@
-node_modules
-dist
+{
+  "semi": true,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "printWidth": 100
+}
